@@ -1,0 +1,21 @@
+package com.example.jnisample;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class JniSampleActivity extends Activity {
+
+	private native int sutestJni(int i);
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_jni_sample);
+        
+        int i=sutestJni(3);
+        Log.e("jnitest", "test result:"+ i);
+    }
+}

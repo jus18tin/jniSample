@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/Users/junhua.li/Documents/handsomecamera12/.metadata/.plugins/org.eclipse.jdt.core
+1270315800.index
+3746570489.index
+2320158811.index
+3938721329.index

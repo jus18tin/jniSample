@@ -1,0 +1,9 @@
+#include <jni.h>
+
+extern "C" {
+	JNIEXPORT jint JNICALL Java_jp_co_glossom_handsomecamera_LankMarkActivity_FindFaceLandmarks2(
+		JNIEnv* env, jobject, jfloat ratioW, jfloat ratioH)
+	{
+		return i;
+	}
+}

@@ -1,0 +1,9 @@
+#include <jni.h>
+
+extern "C" {
+	JNIEXPORT jint JNICALL Java_com_example_jnisample_testJni(JNIEnv* env, jobject)
+	{
+		int i = 2
+		return i;
+	}
+}
